@@ -15,7 +15,7 @@ If you are developing Wordpress themes, you will want to alter the volume in dev
 Remember to perform the five minute install before running any tests! (See "Visit Your Containerized Wordpress Website")
 
 ## Visit Your Containerized Wordpress Website
-Simple use 0.0.0.0:8080/wp-admin to access your site. The IP will auto-route to the address of your docker container.
+Simple use 0.0.0.0:8000/wp-admin to access your site. The IP will auto-route to the address of your docker container.
 
 Perform the five-minute install as you typically would on any Wordpress website. 
 
