@@ -8,7 +8,7 @@ Containerized development in Visual Studio Code for Wordpress. Includes support 
 - An example workspace with settings to ensure PHP Code Sniffer and Intellephense respect wordpress / xdebug library calls
 
 ## Setting Up
-If you are developing Wordpress plugins, the only "real" configuration you need to do is replace {YOUR_PLUGIN_NAME_HERE} in devcontainer.json and .devcontainer/docker-compose.yml.
+If you are developing Wordpress plugins, the only "real" configuration you need to do is replace {YOUR_PLUGIN_NAME_HERE} in devcontainer.json and docker-compose.yml.
 
 If you are developing Wordpress themes, you will want to alter the volume in devcontainer.json and docker-compose.yml so that your theme directory syncs to the proper theme directory in your containerized wordpress (use the plugin example provided as a guide).
 
