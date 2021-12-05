@@ -1,0 +1,35 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.205.2/containers/alpine
+{
+	"name": "Wordpress with Debian",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "wordpress",
+	// Ideally, you are using this base to develop a plugin
+	// in that case, uncomment the following line and replace YOUR_PLUGIN_NAME_HERE
+	// with the directory name of your plugin (my-great-plugin)
+	// "workspaceFolder": "/var/www/html/wp-content/plugins/{YOUR_PLUGIN_NAME_HERE}/",
+  	"shutdownAction": "stopCompose",
+	// Set *default* container specific settings.json values on container create. 
+	"settings": {},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-azuretools.vscode-docker",
+		"ikappas.phpcs",
+		"felixfbecker.php-debug",
+		"recca0120.vscode-phpunit",
+		"bmewburn.vscode-intelephense-client"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "apt-get install git -y",
+
+	// Replace when using a ptrace-based debugger like C++, Go, and Rust
+	// "runArgs": [ "--init", "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+}
