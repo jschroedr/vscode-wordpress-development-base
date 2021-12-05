@@ -19,7 +19,7 @@ Simple use 0.0.0.0:8000/wp-admin to access your site. The IP will auto-route to 
 
 Perform the five-minute install as you typically would on any Wordpress website. 
 
-If you are using PhpUnit to test your code, this is a pre-requisite since requests against Wordpress core are killed silently (die()) when the website is not installed.
+If you are using PhpUnit to test your code, this is a pre-requisite since requests against Wordpress core are killed silently (die) when the website is not installed.
 
 ## PhpUnit and XDebug
 The included extensions will make PhpUnit testing rather simple if you are familiar. If you are not, the documentation and community offer many great resources to get started.
